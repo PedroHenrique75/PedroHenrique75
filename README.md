@@ -1,16 +1,18 @@
-# Pedro Henrique - Full Stack Developer
-
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║        🚀 Full Stack Developer | Game Enthusiast | Code Magician    ║
-║                                                                      ║
-║     Transforming creative ideas into elegant, powerful code         ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+# 🚀 PEDRO HENRIQUE
+
+## Developer | Problem Solver | Technology Enthusiast
+
+---
+
+[![Status](https://img.shields.io/badge/Status-Active-00ff00?style=for-the-badge)]()
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-ff0000?style=for-the-badge&logo=github)](https://github.com)
+
+---
+
+**Desenvolvedor Full Stack apaixonado por criar soluções inovadoras.**  
+*Código limpo, arquitetura escalável e resultados extraordinários.*
 
 </div>
 
