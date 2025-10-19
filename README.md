@@ -1,6 +1,6 @@
-<!-- Banner animado estilo neon -->
+<!-- Banner animado estilo neon vermelho -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=180&section=header&text=Pedro%20Henrique&fontSize=50&animation=fadeIn&color=0:ff6ec7,100:1b1b1b&fontColor=ffffff" alt="Banner Neon"/>
+  <img src="https://capsule-render.vercel.app/api?type=wave&height=180&section=header&text=Pedro%20Henrique&fontSize=50&animation=fadeIn&color=0:ff0000,100:800000&fontColor=ffffff" alt="Banner Neon Vermelho"/>
 </p>
 
 <h1 align="center">👋 Olá, eu sou <strong>Pedro Henrique</strong></h1>
@@ -74,5 +74,3 @@ Sempre aprendendo e buscando evoluir como desenvolvedor ⚡
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Obrigado+por+visitar+meu+perfil!;Explore+meus+projetos+e+aprendizados+🚀" alt="Typing SVG"/>
 </p>
-
-<p align="center">Feito com ❤️ e muito café ☕</p>
