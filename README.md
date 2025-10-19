@@ -1,76 +1,321 @@
-<!-- Banner animado estilo neon vermelho -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=180&section=header&text=Pedro%20Henrique&fontSize=50&animation=fadeIn&color=0:ff0000,100:800000&fontColor=ffffff" alt="Banner Neon Vermelho"/>
-</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Henrique - Banner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<h1 align="center">👋 Olá, eu sou <strong>Pedro Henrique</strong></h1>
-<p align="center">🎓 Engenharia da Computação | 💻 Técnico em T.I. <br>✨ Apaixonado por programação e jogos</p>
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0000 25%, #2d0000 50%, #1a0000 75%, #000000 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 8s ease infinite;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+        }
 
----
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
 
-### 🧠 Sobre mim
-Sou apaixonado por **programação e jogos**, adoro explorar novas tecnologias e criar projetos que funcionam de verdade.  
-Sempre aprendendo e buscando evoluir como desenvolvedor ⚡
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+        }
 
----
+        .stars {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
 
-### 📚 Formação Acadêmica
-- 🎓 **Engenharia da Computação** — cursando  
-- 🧰 **Curso Técnico em T.I.**
+        .star {
+            position: absolute;
+            border-radius: 50%;
+            animation: twinkle 3s infinite;
+        }
 
----
+        .star.type1 {
+            width: 2px;
+            height: 2px;
+            background: #ff0000;
+        }
 
-### 🛠️ Tecnologias & Ferramentas
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-</p>
+        .star.type2 {
+            width: 3px;
+            height: 3px;
+            background: #cc0000;
+            opacity: 0.7;
+        }
 
----
+        .star.type3 {
+            width: 1px;
+            height: 1px;
+            background: #ffffff;
+            opacity: 0.6;
+        }
 
-### 📂 Projetos em destaque
-<p align="center">
-  <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/Portfólio-Pessoal-blue?style=for-the-badge&logo=github" alt="Portfólio"/>
-  </a>
-  <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/CRUD-Python-red?style=for-the-badge&logo=python" alt="CRUD Python"/>
-  </a>
-  <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/Sistema-Arduino-green?style=for-the-badge&logo=arduino" alt="Sistema Arduino"/>
-  </a>
-</p>
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
 
----
+        .content {
+            text-align: center;
+            z-index: 10;
+            animation: slideUp 1s ease-out;
+        }
 
-### 📊 Estatísticas do GitHub
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PedroHenrique75&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroHenrique75&layout=compact&theme=radical&hide_border=true" height="165"/>
-</p>
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
----
+        .title {
+            font-size: 4.5rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #ff0000, #ff3333, #ff0000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% 200%;
+            animation: gradientText 3s ease infinite;
+            letter-spacing: 3px;
+            text-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+        }
 
-### 📫 Contato
-<p align="center">
-  <a href="mailto:pedrohenrique9021@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://github.com/PedroHenrique75">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
+        @keyframes gradientText {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
 
----
+        .subtitle {
+            font-size: 1.8rem;
+            color: #ff0000;
+            margin-bottom: 30px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            animation: fadeInDelay 1.5s ease-out;
+            text-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+        }
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Obrigado+por+visitar+meu+perfil!;Explore+meus+projetos+e+aprendizados+🚀" alt="Typing SVG"/>
-</p>
+        @keyframes fadeInDelay {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .icons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInDelay2 2s ease-out;
+        }
+
+        @keyframes fadeInDelay2 {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 0, 0, 0.1);
+            border: 2px solid #ff0000;
+            border-radius: 12px;
+            font-size: 1.8rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+        }
+
+        .icon:hover {
+            background: rgba(255, 0, 0, 0.3);
+            border-color: #ff3333;
+            transform: translateY(-5px) rotate(5deg);
+            box-shadow: 0 10px 30px rgba(255, 0, 0, 0.6), 0 0 20px rgba(255, 0, 0, 0.5);
+        }
+
+        .floating-shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .shape {
+            position: absolute;
+            opacity: 0.08;
+            border-radius: 50%;
+        }
+
+        .shape-1 {
+            width: 300px;
+            height: 300px;
+            background: #ff0000;
+            top: -100px;
+            left: -100px;
+            animation: float 20s infinite ease-in-out;
+            filter: blur(50px);
+        }
+
+        .shape-2 {
+            width: 250px;
+            height: 250px;
+            background: #ff0000;
+            top: 50%;
+            right: -100px;
+            animation: float 25s infinite ease-in-out reverse;
+            filter: blur(50px);
+        }
+
+        .shape-3 {
+            width: 200px;
+            height: 200px;
+            background: #cc0000;
+            bottom: -50px;
+            left: 20%;
+            animation: float 30s infinite ease-in-out;
+            filter: blur(50px);
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(30px); }
+        }
+
+        .line {
+            position: absolute;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #ff0000, #cc0000, transparent);
+            width: 300px;
+            z-index: 2;
+        }
+
+        .line-1 {
+            top: 100px;
+            left: -300px;
+            animation: slideLine 3s ease-in-out infinite;
+        }
+
+        .line-2 {
+            bottom: 100px;
+            right: -300px;
+            animation: slideLine 3s ease-in-out infinite 1.5s;
+        }
+
+        @keyframes slideLine {
+            0% { transform: translateX(0); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateX(600px); opacity: 0; }
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgba(255, 0, 0, 0.15);
+            border: 2px solid #ff0000;
+            border-radius: 50px;
+            color: #ff0000;
+            font-size: 0.9rem;
+            margin-top: 15px;
+            backdrop-filter: blur(10px);
+            font-weight: 600;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .badge:hover {
+            background: rgba(255, 0, 0, 0.3);
+            border-color: #ff3333;
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+        }
+
+        .accent-line {
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff0000, #cc0000);
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="stars" id="starfield"></div>
+    
+    <div class="container">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+        </div>
+
+        <div class="content">
+            <h1 class="title">🚀 PEDRO HENRIQUE 🎮</h1>
+            <div class="accent-line"></div>
+            <p class="subtitle">Full Stack Developer | Game Enthusiast</p>
+            
+            <div class="icons">
+                <div class="icon">💻</div>
+                <div class="icon">🎮</div>
+                <div class="icon">⚡</div>
+                <div class="icon">🔧</div>
+                <div class="icon">🌟</div>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <span class="badge">✨ Transforming Ideas Into Code</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Criar estrelas animadas com cores vermelho e preto
+        const starfield = document.getElementById('starfield');
+        const types = ['type1', 'type2', 'type3'];
+        
+        for (let i = 0; i < 70; i++) {
+            const star = document.createElement('div');
+            star.className = 'star ' + types[Math.floor(Math.random() * types.length)];
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 3 + 's';
+            starfield.appendChild(star);
+        }
+    </script>
+</body>
+</html>
