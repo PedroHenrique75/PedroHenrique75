@@ -33,7 +33,7 @@
 
 ## 👨‍💻 Sobre Mim
 
-Sou **Pedro Henrique**, estudante de Engenharia da Computação com formação técnica em T.I. Estou no início da minha jornada na programação e aprender constantemente é minha paixão. Busco aprimorar minhas habilidades em desenvolvimento, explorando novas tecnologias e construindo projetos que me desafiem a crescer como desenvolvedor.
+Sou **Pedro Henrique**, estudante de Engenharia da Computação com formação técnica em T.I. Estou desenvolvendo minhas habilidades em programação através de projetos práticos e estudo contínuo. Meu foco é construir uma base sólida em desenvolvimento de software com boas práticas e código de qualidade.
 
 ---
 
@@ -60,11 +60,11 @@ Sou **Pedro Henrique**, estudante de Engenharia da Computação com formação t
 
 ## 🎯 Meus Objetivos
 
-- **📚 Aprendizado Contínuo** - Dominando novas linguagens e frameworks
-- **🎮 Desenvolvimento de Jogos** - Explorando criatividade e lógica
+- **📚 Desenvolvimento Técnico** - Consolidar conhecimentos em programação
+- **🎮 Projetos Práticos** - Aplicar conceitos em desenvolvimento de software
 - **💡 Boas Práticas** - Escrever código limpo e profissional
-- **🚀 Projetos Desafiadores** - Crescer através de desafios reais
-- **🤝 Contribuir com a Comunidade** - Compartilhar conhecimento
+- **🚀 Crescimento Profissional** - Adquirir experiência prática
+- **🤝 Oportunidades** - Buscar estágios e desafios na área
 
 ---
 
@@ -81,12 +81,12 @@ Sou **Pedro Henrique**, estudante de Engenharia da Computação com formação t
 
 ## 🎯 O Que Eu Faço
 
-- 📖 Estudo e aprendo novas tecnologias constantemente
-- 💻 Desenvolvo projetos práticos para consolidar conhecimento
-- 🎮 Crio pequenas experiências e jogos para explorar lógica
-- 🔧 Trabalho em projetos pessoais que me desafiam
-- 📚 Mantenho meu repositório com exemplos e práticas
-- 🚀 Busco por estágios e oportunidades de aprendizado
+- 📖 Desenvolvimento de projetos em tecnologias do meu stack
+- 💻 Prática de programação em diferentes linguagens
+- 🎮 Desenvolvimento de aplicações web e sistemas
+- 🔧 Integração com bancos de dados
+- 📚 Estudo e aplicação de padrões de design
+- 🚀 Aprimoramento constante de habilidades técnicas
 
 ---
 
