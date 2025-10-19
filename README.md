@@ -9,14 +9,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-00ff00?style=for-the-badge)]()
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-ff0000?style=for-the-badge&logo=github)](https://github.com)
 
----
 
-**Desenvolvedor Full Stack apaixonado por criar soluções inovadoras.**  
-*Código limpo, arquitetura escalável e resultados extraordinários.*
-
-</div>
-
----
 
 ## 📋 Índice
 
