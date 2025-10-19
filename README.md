@@ -1,321 +1,132 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Henrique - Banner</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# Pedro Henrique - Full Stack Developer
 
-        body {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a0000 25%, #2d0000 50%, #1a0000 75%, #000000 100%);
-            background-size: 400% 400%;
-            animation: gradientShift 8s ease infinite;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            overflow: hidden;
-        }
+<div align="center">
 
-        @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║        🚀 Full Stack Developer | Game Enthusiast | Code Magician    ║
+║                                                                      ║
+║     Transforming creative ideas into elegant, powerful code         ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            height: 600px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-            border-radius: 20px;
-        }
+</div>
 
-        .stars {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
+---
 
-        .star {
-            position: absolute;
-            border-radius: 50%;
-            animation: twinkle 3s infinite;
-        }
+## 📋 Índice
 
-        .star.type1 {
-            width: 2px;
-            height: 2px;
-            background: #ff0000;
-        }
+- [Sobre Mim](#-sobre-mim)
+- [Stack Tecnológico](#-stack-tecnológico)
+- [Interesses](#-interesses)
+- [Competências](#-competências-principais)
+- [O Que Eu Faço](#-o-que-eu-faço)
+- [Filosofia de Código](#-filosofia-de-código)
+- [Estrutura de Projetos](#-estrutura-de-meus-projetos)
+- [Conectar](#-vamos-conectar)
 
-        .star.type2 {
-            width: 3px;
-            height: 3px;
-            background: #cc0000;
-            opacity: 0.7;
-        }
+---
 
-        .star.type3 {
-            width: 1px;
-            height: 1px;
-            background: #ffffff;
-            opacity: 0.6;
-        }
+## 👨‍💻 Sobre Mim
 
-        @keyframes twinkle {
-            0%, 100% { opacity: 0.3; }
-            50% { opacity: 1; }
-        }
+Sou **Pedro Henrique**, um desenvolvedor apaixonado por criar soluções inovadoras e escaláveis. Com experiência em desenvolvimento full stack, tenho uma especialidade em programação e desenvolvimento de jogos. Meu objetivo é combinar criatividade com código limpo para entregar projetos que fazem a diferença.
 
-        .content {
-            text-align: center;
-            z-index: 10;
-            animation: slideUp 1s ease-out;
-        }
+---
 
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+## 🛠️ Stack Tecnológico
 
-        .title {
-            font-size: 4.5rem;
-            font-weight: 900;
-            margin-bottom: 20px;
-            background: linear-gradient(45deg, #ff0000, #ff3333, #ff0000);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            background-size: 200% 200%;
-            animation: gradientText 3s ease infinite;
-            letter-spacing: 3px;
-            text-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
-        }
+### Backend
+- ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) PHP
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) Python
+- ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) Flask
+- ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white) C
 
-        @keyframes gradientText {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
+### Frontend
+- ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) React
+- ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white) JSON
 
-        .subtitle {
-            font-size: 1.8rem;
-            color: #ff0000;
-            margin-bottom: 30px;
-            font-weight: 300;
-            letter-spacing: 2px;
-            animation: fadeInDelay 1.5s ease-out;
-            text-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
-        }
+### Banco de Dados
+- ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) MySQL
+- ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) Firebase
 
-        @keyframes fadeInDelay {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+### Ferramentas
+- ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=apachefriends&logoColor=white) XAMPP
 
-        .icons {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            flex-wrap: wrap;
-            animation: fadeInDelay2 2s ease-out;
-        }
+---
 
-        @keyframes fadeInDelay2 {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+## 🎮 Interesses
 
-        .icon {
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(255, 0, 0, 0.1);
-            border: 2px solid #ff0000;
-            border-radius: 12px;
-            font-size: 1.8rem;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            cursor: pointer;
-            box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
-        }
+- **🎮 Desenvolvimento de Jogos** - Criando experiências imersivas
+- **💡 Programação Criativa** - Soluções elegantes e eficientes
+- **🚀 Inovação Tecnológica** - Explorando novas possibilidades
+- **🎨 Design & UX** - Interface bonita que funciona bem
+- **⚡ Performance** - Código otimizado e rápido
 
-        .icon:hover {
-            background: rgba(255, 0, 0, 0.3);
-            border-color: #ff3333;
-            transform: translateY(-5px) rotate(5deg);
-            box-shadow: 0 10px 30px rgba(255, 0, 0, 0.6), 0 0 20px rgba(255, 0, 0, 0.5);
-        }
+---
 
-        .floating-shapes {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-        }
+## 💪 Competências Principais
 
-        .shape {
-            position: absolute;
-            opacity: 0.08;
-            border-radius: 50%;
-        }
+- **Desenvolvimento Web** - Full Stack & APIs RESTful
+- **Backend** - Lógica de Negócio & Integração de Bancos
+- **Frontend** - React & Interfaces Responsivas
+- **Banco de Dados** - Design & Otimização
+- **Programação Sistêmica** - Algoritmos & Estruturas de Dados
+- **Game Dev** - Lógica & Experiência do Usuário
 
-        .shape-1 {
-            width: 300px;
-            height: 300px;
-            background: #ff0000;
-            top: -100px;
-            left: -100px;
-            animation: float 20s infinite ease-in-out;
-            filter: blur(50px);
-        }
+---
 
-        .shape-2 {
-            width: 250px;
-            height: 250px;
-            background: #ff0000;
-            top: 50%;
-            right: -100px;
-            animation: float 25s infinite ease-in-out reverse;
-            filter: blur(50px);
-        }
+## 🎯 O Que Eu Faço
 
-        .shape-3 {
-            width: 200px;
-            height: 200px;
-            background: #cc0000;
-            bottom: -50px;
-            left: 20%;
-            animation: float 30s infinite ease-in-out;
-            filter: blur(50px);
-        }
+- ✨ Desenvolvo aplicações web completas do conceito até produção
+- 🎮 Crio jogos e experiências interativas com lógica complexa
+- 🔧 Integro sistemas com bancos de dados robustos e seguros
+- 🚀 Otimizo performance e escalabilidade de projetos
+- 📱 Entrego interfaces responsivas que encantem usuários
+- 💻 Escrevo código limpo que é fácil de manter e expandir
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(30px); }
-        }
+---
 
-        .line {
-            position: absolute;
-            height: 3px;
-            background: linear-gradient(90deg, transparent, #ff0000, #cc0000, transparent);
-            width: 300px;
-            z-index: 2;
-        }
+## 📊 Filosofia de Código
 
-        .line-1 {
-            top: 100px;
-            left: -300px;
-            animation: slideLine 3s ease-in-out infinite;
-        }
+```javascript
+const meuCodigo = {
+  qualidade: "sempre em primeiro lugar",
+  arquitetura: "limpa e escalável",
+  performance: "otimizada e eficiente",
+  documentacao: "clara e completa",
+  testing: "cobertura máxima"
+}
+```
 
-        .line-2 {
-            bottom: 100px;
-            right: -300px;
-            animation: slideLine 3s ease-in-out infinite 1.5s;
-        }
+---
 
-        @keyframes slideLine {
-            0% { transform: translateX(0); opacity: 0; }
-            50% { opacity: 1; }
-            100% { transform: translateX(600px); opacity: 0; }
-        }
+## 📁 Estrutura de Meus Projetos
 
-        .badge {
-            display: inline-block;
-            padding: 10px 20px;
-            background: rgba(255, 0, 0, 0.15);
-            border: 2px solid #ff0000;
-            border-radius: 50px;
-            color: #ff0000;
-            font-size: 0.9rem;
-            margin-top: 15px;
-            backdrop-filter: blur(10px);
-            font-weight: 600;
-            box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
-            transition: all 0.3s ease;
-        }
+```
+projeto/
+├── backend/          (PHP, Python, C)
+├── frontend/         (React)
+├── database/         (MySQL, Firebase)
+├── config/           (XAMPP Setup)
+└── docs/             (Documentação)
+```
 
-        .badge:hover {
-            background: rgba(255, 0, 0, 0.3);
-            border-color: #ff3333;
-            box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
-        }
+---
 
-        .accent-line {
-            width: 100px;
-            height: 4px;
-            background: linear-gradient(90deg, #ff0000, #cc0000);
-            margin: 15px auto;
-            border-radius: 2px;
-        }
-    </style>
-</head>
-<body>
-    <div class="stars" id="starfield"></div>
-    
-    <div class="container">
-        <div class="floating-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-        </div>
+## 🔗 Vamos Conectar!
 
-        <div class="content">
-            <h1 class="title">🚀 PEDRO HENRIQUE 🎮</h1>
-            <div class="accent-line"></div>
-            <p class="subtitle">Full Stack Developer | Game Enthusiast</p>
-            
-            <div class="icons">
-                <div class="icon">💻</div>
-                <div class="icon">🎮</div>
-                <div class="icon">⚡</div>
-                <div class="icon">🔧</div>
-                <div class="icon">🌟</div>
-            </div>
+- 💼 Open para oportunidades
+- 🤝 Aberto a colaborações em projetos
+- 📧 Entre em contato para novos desafios
 
-            <div style="margin-top: 30px;">
-                <span class="badge">✨ Transforming Ideas Into Code</span>
-            </div>
-        </div>
-    </div>
+---
 
-    <script>
-        // Criar estrelas animadas com cores vermelho e preto
-        const starfield = document.getElementById('starfield');
-        const types = ['type1', 'type2', 'type3'];
-        
-        for (let i = 0; i < 70; i++) {
-            const star = document.createElement('div');
-            star.className = 'star ' + types[Math.floor(Math.random() * types.length)];
-            star.style.left = Math.random() * 100 + '%';
-            star.style.top = Math.random() * 100 + '%';
-            star.style.animationDelay = Math.random() * 3 + 's';
-            starfield.appendChild(star);
-        }
-    </script>
-</body>
-</html>
+<div align="center">
+
+**Desenvolvido por Pedro Henrique**
+
+*"Keep coding, keep creating, keep gaming!"* 🚀
+
+</div>
