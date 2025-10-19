@@ -33,7 +33,7 @@
 
 ## 👨‍💻 Sobre Mim
 
-Sou **Pedro Henrique**, um desenvolvedor apaixonado por criar soluções inovadoras e escaláveis. Com experiência em desenvolvimento full stack, tenho uma especialidade em programação e desenvolvimento de jogos. Meu objetivo é combinar criatividade com código limpo para entregar projetos que fazem a diferença.
+Sou **Pedro Henrique**, estudante de Engenharia da Computação com formação técnica em T.I. Estou no início da minha jornada na programação e aprender constantemente é minha paixão. Busco aprimorar minhas habilidades em desenvolvimento, explorando novas tecnologias e construindo projetos que me desafiem a crescer como desenvolvedor.
 
 ---
 
@@ -58,35 +58,35 @@ Sou **Pedro Henrique**, um desenvolvedor apaixonado por criar soluções inovado
 
 ---
 
-## 🎮 Interesses
+## 🎯 Meus Objetivos
 
-- **🎮 Desenvolvimento de Jogos** - Criando experiências imersivas
-- **💡 Programação Criativa** - Soluções elegantes e eficientes
-- **🚀 Inovação Tecnológica** - Explorando novas possibilidades
-- **🎨 Design & UX** - Interface bonita que funciona bem
-- **⚡ Performance** - Código otimizado e rápido
+- **📚 Aprendizado Contínuo** - Dominando novas linguagens e frameworks
+- **🎮 Desenvolvimento de Jogos** - Explorando criatividade e lógica
+- **💡 Boas Práticas** - Escrever código limpo e profissional
+- **🚀 Projetos Desafiadores** - Crescer através de desafios reais
+- **🤝 Contribuir com a Comunidade** - Compartilhar conhecimento
 
 ---
 
 ## 💪 Competências Principais
 
-- **Desenvolvimento Web** - Full Stack & APIs RESTful
-- **Backend** - Lógica de Negócio & Integração de Bancos
-- **Frontend** - React & Interfaces Responsivas
-- **Banco de Dados** - Design & Otimização
-- **Programação Sistêmica** - Algoritmos & Estruturas de Dados
-- **Game Dev** - Lógica & Experiência do Usuário
+- **Desenvolvimento Web** - Aprendendo Full Stack
+- **Backend** - PHP, Python e Flask
+- **Frontend** - React e interfaces responsivas
+- **Banco de Dados** - MySQL e Firebase
+- **Programação Sistêmica** - C, Algoritmos e Estruturas
+- **Ferramentas** - XAMPP, Git e controle de versão
 
 ---
 
 ## 🎯 O Que Eu Faço
 
-- ✨ Desenvolvo aplicações web completas do conceito até produção
-- 🎮 Crio jogos e experiências interativas com lógica complexa
-- 🔧 Integro sistemas com bancos de dados robustos e seguros
-- 🚀 Otimizo performance e escalabilidade de projetos
-- 📱 Entrego interfaces responsivas que encantem usuários
-- 💻 Escrevo código limpo que é fácil de manter e expandir
+- 📖 Estudo e aprendo novas tecnologias constantemente
+- 💻 Desenvolvo projetos práticos para consolidar conhecimento
+- 🎮 Crio pequenas experiências e jogos para explorar lógica
+- 🔧 Trabalho em projetos pessoais que me desafiam
+- 📚 Mantenho meu repositório com exemplos e práticas
+- 🚀 Busco por estágios e oportunidades de aprendizado
 
 ---
 
