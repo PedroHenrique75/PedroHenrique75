@@ -125,4 +125,4 @@ projeto/
 **Desenvolvido com dedicação por Pedro Henrique**  
 *"Cada linha de código é um passo em direção ao crescimento"* 🚀
 
-</div>=0_
+</div>
