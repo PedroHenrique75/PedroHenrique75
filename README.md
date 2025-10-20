@@ -121,7 +121,7 @@ projeto/
 
 <div align="center">
 
-**Desenvolvido  por Pedro Henrique**  
-*"Obrigado por visitar"* 🚀
+**Desenvolvido com dedicação por Pedro Henrique**  
+*"Cada linha de código é um passo em direção ao crescimento"* 🚀
 
 </div>
