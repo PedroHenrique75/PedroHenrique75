@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 PEDRO HENRIQUE
+#  PEDRO HENRIQUE
 
 ## Developer | Problem Solver | Technology Enthusiast
 
